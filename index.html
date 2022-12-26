@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="header">
+        <p>Body Mass Index Calculator</p>
+    </div>
     <div class="container">
         <div class="row">
+            <p>Your weight</p>
             <input type="range" min="20" max="200" value="20" id="weight" oninput="calculate()">
             <span id="weight-val">20 kg</span>
         </div>
         <div class="row">
+            <p>Your height</p>
             <input type="range" min="100" max="250" value="100" id="height" oninput="calculate()">
             <span id="height-val">100 cm</span>
         </div>
